@@ -17,6 +17,7 @@ public class ActionClass {
 		Actions a=new Actions(driver);
 		a.moveToElement(driver.findElement(By.id("icp-nav-flyout"))).build().perform();
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
+		  
 
 	}
 }
